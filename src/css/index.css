@@ -1,0 +1,89 @@
+.search-box {
+  height: 70vh;
+  width: 20vw;
+  float: right;
+  padding: 10px;
+  background: rgb(37, 36, 36);
+  margin: 0px 0px 40px 0px;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+.jobs-box {
+  height: 5vh;
+  background: rgb(37, 36, 36);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.anchor:hover .hide {
+  height: auto;
+  background: black;
+  display: block;
+  color: red;
+}
+
+.jobs-box li {
+  list-style-type: none;
+  padding: 10px 10px 10px 10px;
+}
+
+.jobs-box li a {
+  text-decoration: none;
+  color: rgb(248, 248, 245);
+  cursor: pointer;
+}
+
+.search-input {
+  height: 6vh;
+  width: 15vw;
+  padding-left: 10px;
+  border: 0px;
+  box-shadow: 10px 10px 20px -6px black;
+}
+.search-input-select {
+  height: 6vh;
+  width: 16vw;
+  padding: 5px 5px 5px 5px;
+  color: grey;
+  box-shadow: 10px 10px 20px -6px black;
+}
+
+.register-now {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.option-dummy {
+  color: grey;
+}
+
+.btn {
+  height: 5vh;
+  width: 16vw;
+  border: 0px;
+  background: tomato;
+  box-shadow: 10px 10px 20px -6px black;
+}
+.btn-small {
+  height: 5vh;
+  width: 16vw;
+  margin-top: 5px;
+  border: 0px;
+  background: tomato;
+  box-shadow: 10px 10px 20px -6px black;
+}

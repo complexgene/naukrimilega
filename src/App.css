@@ -1,5 +1,63 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.top-info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.top-info-bar {
+  width: 100%;
+}
+
+body {
+  /* background-image: linear-gradient(135deg, #552049 30%, #67cfdd 90%); */
+  /* background: rgb(1, 9, 44); */
+  background-image: url(images/bg3_medium.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  min-height: 100vh;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+nav {
+  height: 7vh;
+  background: rgb(2, 56, 56);
+  font-size: 25px;
+  padding: 15px;
+  color: rgb(221, 111, 38);
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.check {
+  display: flex;
+  flex-direction: column;
+}
+
+.i-circle {
+  background: #525234;
+  color: rgb(214, 190, 173);
+  padding: 5px 5px 1px 5px;
+  font-family: "Josefin Sans", sans-serif;
+  align-content: center;
+  border-radius: 6%;
+  font-size: 25px;
+}
+
+.i-circle-light {
+  padding: 5px 6px 1px 6px;
+  color: rgb(240, 236, 236);
+  align-content: center;
+  font-size: 13px;
+  font-family: cursive;
+  font-weight: bold;
+  margin-left: 10px;
 }
 
 .App-logo {
