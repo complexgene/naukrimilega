@@ -30,7 +30,7 @@ body {
 
 nav {
   height: 7vh;
-  background: rgb(2, 56, 56);
+  background-color: #e5c526;
   font-size: 25px;
   padding: 15px;
   color: rgb(221, 111, 38);
@@ -54,7 +54,7 @@ nav {
 
 .i-circle-light {
   padding: 5px 6px 1px 6px;
-  color: rgb(240, 236, 236);
+  color: rgb(34, 33, 33);
   align-content: center;
   font-size: 13px;
   font-family: cursive;
