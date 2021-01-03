@@ -9,6 +9,11 @@
   width: 100%;
 }
 
+.allquickjobs {
+  display: flex;
+  justify-content: space-between;
+}
+
 .top-info-bar {
   width: 100%;
 }
@@ -16,9 +21,6 @@
 body {
   /* background-image: linear-gradient(135deg, #552049 30%, #67cfdd 90%); */
   /* background: rgb(1, 9, 44); */
-  background-image: url(images/bg3_medium.jpg);
-  background-repeat: no-repeat;
-  background-size: auto;
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   min-height: 100vh;
